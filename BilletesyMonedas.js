@@ -56,9 +56,5 @@ function generarImagenes(tipo, cantidad) {
 
 function reiniciar() {
     window.location.reload();
-   /*  document.getElementById('cantidad').value = '';
-    document.getElementById('mil').innerHTML = '';
-    document.getElementById('cien').innerHTML = '';
-    document.getElementById('diez').innerHTML = '';
-    document.getElementById('uno').innerHTML = ''; */
+   
 }
