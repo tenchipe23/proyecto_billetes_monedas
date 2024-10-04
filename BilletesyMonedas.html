@@ -8,6 +8,12 @@
 </head>
 <body>
     <h1>Billetes y Monedas</h1>
+    <form>
+        <label for="cantidad">Ingresa una cantidad: </label>
+        <input type="number" id="cantidad" step="1" oninput="validateNumber(this)">
+        <input type="button" value="Mostrar" onclick="mostrarDinero()">
+        <input type="button" value="Reiniciar" onclick="reiniciar()">
+    </form>
 
 </body>
 </html>
